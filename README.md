@@ -2,12 +2,12 @@
 
 Amazon Elastic Kubernetes Service (EKS) is a managed Kubernetes service by AWS that simplifies the deployment, management, and scaling of containerized applications.
 
-1. **Manual Kubernetes Challenges:** 
+1. **Manual Kubernetes Challenges:**
     - Setting up Kubernetes manually involves managing master nodes (control plane) and worker nodes (data plane), renewing certificates, managing scheduler crashes, etc.
 
-2. **EKS Solution:** 
+2. **EKS Solution:**
     - Managed Control Plane: AWS manages the control plane (master nodes) (API Server, etcd, and scheduler) for you. AWS handles upgrades, patches, and ensures high availability and easier maintenanceof the control plane.
-    - Flexible worker node setup:** Use EC2 instances or AWS Fargate (serverless compute).
+    - Flexible worker node setup: Use EC2 instances or AWS Fargate (serverless compute).
     - Automated Updates: EKS automatically updates the Kubernetes version, eliminating the need for manual intervention and ensuring that the cluster stays up-to-date with the latest features and security patches.
     - Scalability: EKS can automatically scale the Kubernetes control plane based on demand, ensuring the cluster remains responsive as the workload increases.
     - AWS Integration: EKS seamlessly integrates with various AWS services, such as AWS IAM for authentication and authorization, Amazon VPC for networking, and AWS Load Balancers for service exposure.
